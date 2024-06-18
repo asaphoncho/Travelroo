@@ -1,0 +1,346 @@
+.top-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+.logo{
+    width: 16.66%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    column-gap: 0.2rem;
+}
+.logo img{
+    width: 3rem;
+    height: 3rem;
+}
+.nav-bar{
+    width: 16.66%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    column-gap: 2rem;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    color: worahite;
+    text-decoration: none;
+}
+.nav-bar2{
+    width: 83%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    column-gap: 2rem;
+    padding-right: 4rem;
+}
+.nav-bar2 a{
+    color: white;
+    text-decoration: none;
+}
+.search-div{
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image: url(images/island.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.search-container{
+    width: fit-content;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 2rem;
+    column-gap: 0.5rem;
+    border: solid 2.5px rgb(247, 187, 77);
+}
+.search-container input{
+    width: 12rem;
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+}
+
+#search-btn{
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#clear-btn{
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+}
+img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+.results{
+    display: flex;
+    width: 33.33%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 2rem;
+    padding: 1rem;
+    position: absolute;
+    right: 8rem;
+    top: 5rem;
+}
+.bar{
+    width: 27rem;
+    height: 1rem;
+    border-radius: 0.25rem;
+    background-color: orange;
+}
+.card{
+    display: flex;
+    width: 25rem;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.926);
+    padding: 2rem 1rem 1.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.card p{
+    text-align: center;
+    width: 100%;
+}
+#visit-btn{
+    background-color: rgb(70, 201, 70);
+    cursor: pointer;
+    color: white;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+.hero-section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.contact-section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 10%;
+}
+.text-area{
+    width: 30%;
+    margin-left: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    row-gap: 1rem;
+    
+}
+.text-area2{
+    width: 40%;
+    margin-left: 4rem;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    row-gap: 1rem;
+    border-right: solid 4px white;
+    
+}
+.bigtext{
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.smalltext{
+    width: fit-content;
+    color: white;
+    font-size: 1rem;
+}
+.footer-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    background-color: black;
+}
+.footer-section a{
+    text-decoration: none;
+    color: white;
+}
+.form{
+    display: flex;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.44);
+    padding: 2rem 2rem 4rem 2rem;
+    color: white;
+}
+.form input{
+    width: 94%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.form textarea{
+    width: 28.5rem;
+    height: 7rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px white;
+    color: white;
+}
+.meet-the-team{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #101010;
+    color: #E8E8E8;
+    padding: 3.5rem 0 3.5rem 0;
+    row-gap: 2.5rem;
+}
+.meet-title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.team-container{
+    width: 83.33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.team-members{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: start;
+}
+.member-card{
+    width: 24%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.member-pic-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.member-pic-container img{
+    width: 100%;
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.4) saturate(0%);
+    transition: ease-in-out 0.7s;
+}
+.member-pic-container img:hover{
+    filter: none;
+}
+.member-name{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.member-title{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #3D3C3C;
+    font-family: "Roboto";
+}
+.about-text-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.653);
+    row-gap: 1rem;
+}
