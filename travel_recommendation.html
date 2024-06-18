@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelroo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <div class="top-bar">
+            <div class="logo">
+                <h1>Travelroo</h1>
+                <img src="images/Airport.png" alt="">
+            </div>
+            <div class="nav-bar">
+                <a href="travel_recommendation.html">Home</a>
+                <a href="About us.html">About Us</a>
+                <a href="Contact us.html">Contact Us</a>
+            </div>
+            <div class="search-div">
+                <div class="search-container">
+                    <form action="" id="form">
+                        <input id="search-input" type="text" style="font-weight: 600; color: grey;" placeholder="Enter a destination or keyword">
+                    </form>
+                    <button id="search-btn" onclick="displayRecommendations()" style="color: rgb(246, 205, 128); padding-right: 1rem; border-right: solid 1px grey;">Search</button>
+                    <button id="clear-btn" onclick="clear()">Clear</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="hero-section">
+            <div class="icons"></div>
+            <div class="text-area">
+                <div class="bigtext">
+                    <span>EXPLORE</span>
+                    <span>DREAM</span>
+                    <span>DESTINATIONS</span>
+                </div>
+                <div>
+                    <span class="smalltext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis ea nihil odit? Voluptatibus facere ad sit adipisci cupiditate, deleniti sapiente placeat odio illo, veniam iure labore. Voluptas veniam, libero autem quae hic earum tempore, similique vero iure sed sequi ipsa natus totam quia, praesentium ut aut quos impedit! At eveniet aspernatur tempora ea.
+                    </span>
+                </div>
+                <button id="visit-btn" style="font-size: 0.8rem; background-color: rgba(253, 205, 117, 0.729);">Book Now</button>
+            </div>
+            <div id="results" class="results">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer-section">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </section>
+</body>
+<script src="travel_recommendation.js"></script>
+</html>
